@@ -1358,6 +1358,11 @@ h3.testi-user-name span {
   justify-content: center;
   gap: 2.5rem;
 }
+@media (max-width: 776px){
+  .footer-area .footer-contect{
+    flex-direction: column;
+  }
+}
 .footer-area .footer-contect .footer-info-list{
   display: flex;
   gap: 1rem;
