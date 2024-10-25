@@ -469,7 +469,7 @@ h1.lavewell-slider-title {
   top: 472px;
   z-index: 5;
   border: 0;
-  background: url(../images/slider/slider-1-bg.jpg);
+  background: transparent;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -482,7 +482,7 @@ h1.lavewell-slider-title {
 }
 
 button.slider-next {
-  background: url(../images/slider/slider-2-bg.jpg);
+  background: transparent;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -662,10 +662,12 @@ p.service-desc {
 
 .service-area.style-2 .single-service-box {
   text-align: center;
-  background: #f4f0ed;
+  background: #fff;
   padding: 60px 0px 20px;
   margin-right: 0;
   margin-bottom: 30px;
+  box-shadow: 0 0 10px #f1f1f1;
+  min-height: 425px;
 }
 
 .service-section .service-single-box {
@@ -965,7 +967,7 @@ h2.counter-title {
   content: "";
   width: 42%;
   height: 100%;
-  background: url(../images/home-1/about-thumb2.png);
+  background: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -975,13 +977,13 @@ h2.counter-title {
 }
 
 .about-area.style-2 {
-  background: url(../images/home-1/about-thumb3.png);
+  background: #fff;
   right: 0;
   top: 0;
 }
 
 .about-content {
-  padding: 136px 0 0 75px;
+  padding: 80px 0 0 75px;
 }
 
 .about-area.style-2 .about-content {
@@ -1046,7 +1048,7 @@ h2.counter-title {
   transition: 0.5s;
 }
 
-.gallery__thumb-box::before {
+/* .gallery__thumb-box::before {
   position: absolute;
   content: "";
   height: 96%;
@@ -1058,7 +1060,7 @@ h2.counter-title {
   bottom: 2%;
   transform: scale(0);
   transition: 0.5s;
-}
+} */
 
 .gallery__thumb-icon {
   -webkit-transition: all 0.3s;
@@ -1100,7 +1102,7 @@ h2.counter-title {
    <!--start lavewell contact area css-->
 =========================================*/
 .contact-area {
-  background: url(../images/home-1/contact-bg.png);
+  background: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

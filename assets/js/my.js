@@ -32,16 +32,16 @@ window.addEventListener("mousemove", (e) => {
 
 cursorScale.forEach((link) => {
   link.addEventListener("mousemove", () => {
-    cursor.classList.add("grow");
+    cursor.classList.add("small");
     if (link.classList.contains("small")) {
-      cursor.classList.remove("grow");
-      cursor.classList.add("grow-small");
+      cursor.classList.remove("small");
+      cursor.classList.add("small");
     }
   });
 
   link.addEventListener("mouseleave", () => {
-    cursor.classList.remove("grow");
-    cursor.classList.remove("grow-small");
+    cursor.classList.remove("small");
+    cursor.classList.remove("small");
   });
 });
 
