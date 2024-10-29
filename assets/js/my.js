@@ -1,49 +1,49 @@
 
 // Curser Pointer
 
-let cursor = document.querySelector(".cursor");
-let cursor2 = document.querySelector(".cursor2");
-let cursorScale = document.querySelectorAll(".cursor-scale");
-let mouseX = 0;
-let mouseY = 0;
+// let cursor = document.querySelector(".cursor");
+// let cursor2 = document.querySelector(".cursor2");
+// let cursorScale = document.querySelectorAll(".cursor-scale");
+// let mouseX = 0;
+// let mouseY = 0;
 
-gsap.to({}, 0.016, {
-  repeat: -1,
-  onRepeat: function () {
-    gsap.set(cursor, {
-      css: {
-        left: mouseX,
-        top: mouseY,
-      },
-    });
-    gsap.set(cursor2, {
-      css: {
-        left: mouseX,
-        top: mouseY,
-      },
-    });
-  },
-});
+// gsap.to({}, 0.016, {
+//   repeat: -1,
+//   onRepeat: function () {
+//     gsap.set(cursor, {
+//       css: {
+//         left: mouseX,
+//         top: mouseY,
+//       },
+//     });
+//     gsap.set(cursor2, {
+//       css: {
+//         left: mouseX,
+//         top: mouseY,
+//       },
+//     });
+//   },
+// });
 
-window.addEventListener("mousemove", (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-});
+// window.addEventListener("mousemove", (e) => {
+//   mouseX = e.clientX;
+//   mouseY = e.clientY;
+// });
 
-cursorScale.forEach((link) => {
-  link.addEventListener("mousemove", () => {
-    cursor.classList.add("small");
-    if (link.classList.contains("small")) {
-      cursor.classList.remove("small");
-      cursor.classList.add("small");
-    }
-  });
+// cursorScale.forEach((link) => {
+//   link.addEventListener("mousemove", () => {
+//     cursor.classList.add("small");
+//     if (link.classList.contains("small")) {
+//       cursor.classList.remove("small");
+//       cursor.classList.add("small");
+//     }
+//   });
 
-  link.addEventListener("mouseleave", () => {
-    cursor.classList.remove("small");
-    cursor.classList.remove("small");
-  });
-});
+//   link.addEventListener("mouseleave", () => {
+//     cursor.classList.remove("small");
+//     cursor.classList.remove("small");
+//   });
+// });
 
 // scroll up
 

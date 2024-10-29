@@ -249,7 +249,7 @@ nav.lavewell_menu span {
 
 .header-btn a {
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
@@ -1951,7 +1951,7 @@ h5.team-sub-title {
   background-color: transparent;
 }
 
-.cursor {
+/* .cursor {
   position: fixed;
   pointer-events: none;
   font-weight: 600;
@@ -1977,9 +1977,9 @@ h5.team-sub-title {
   z-index: 999;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+} */
 
-.cursor.video {
+/* .cursor.video {
   width: 110px;
   height: 110px;
   line-height: 100px;
@@ -1987,7 +1987,7 @@ h5.team-sub-title {
   background-color: rgba(225, 225, 225, 0.7);
   border: 1px solid #ffffff;
   opacity: 0;
-}
+} */
 
 @media only screen and (max-width: 767px) {
   .cursor.video {
